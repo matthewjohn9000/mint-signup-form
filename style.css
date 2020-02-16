@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(236, 238, 241);
+    font-family: 'Helvetica Neue, sans-serif';
+    color: #505050;
+}
+a {
+    color: #0077c5;
+    font-size: 12px;
+    text-decoration: none;
+}
+.sign-in-nav {
+    display: flex;
+    justify-content: flex-end;
+    line-height: .6;
+    text-align: right;
+    font-size: 12px;
+}
+.sign-in-nav-container {
+    display: flex;
+    justify-content: end;
+    margin: 5px;
+}
+.sign-in-column-button {
+    margin-left: 10px;
+}
+.sign-in-btn {
+    margin-top: 5px;
+    margin-right: 20px;
+    background: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    padding: 0 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: normal;
+    height: 34px;
+    font-size: 1.125em;
+}
+.ius-white-lock-img {
+    padding: 1px;
+    height: 1em;
+    width: .8em;
+    margin-top: 2px;
+    margin-right: 8px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAwCAMAAAClrpMkAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAC6UExURUdwTP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////3HoUvYAAAA9dFJOUwCrcV0ZYP6AMaL2lhCgWMgEKPEtUX9BqCfRDVU2y9X5OsDkAQbuFePEJC7TD7Q4E4QHfDD6DLJCell9Q8cCdpKaAAABLUlEQVQ4y92V13KDMBBFsWmxKe69995Lqv7/t3KFNQnIwsvkyZP7hI6ORmIXDZr2t1x85/p1dfzLQ2vnZNktWWcXr7Um7DeTVpyWtlg4VlqtmcHkRl8aS30TLDFVWokfrbsVo22XH7Kk8AaYmLs/Q3eO8eBeqwLPpiEwnYFU77wUaDlCyiApWcsXGVuNImi0YqyYl7w+FtsSs8H6EnsHe5XYJ5gv1xisILECmFzrCpghMQOsojiLyrP/nXfYZ5AGb2YmGt7yBn/YH+DpjI4udqRiP5HXy3m5Hu116mD1DuUN10FR10PCM8OX/oG3EN6C8JrCaxJeW3htwvOE5xGedXsR0yLrXAOrJekbWKL+jrVxIu/N/Xjm7y/OOybwjvBOZ1I7n4Jr/0LFSP4f/QY7TeMSyZCaMgAAAABJRU5ErkJggg==);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo-header {
+    padding-top: 25px;
+}
+.logo-header-intuit img {
+    display: block;
+    width: 118px;
+    height: 36px;
+    margin: 1em auto;
+}
+.logo-header-list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-left: -50px;
+}
+.logo-header-list a {
+    text-decoration: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.logos {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 5px;
+}
+.mint-logo {	
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-favicon-4accf8f4.svg) no-repeat;
+}
+.mint-text {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/mint-text-0fa36974.svg) no-repeat;
+    width: 45px;
+    height: 25px;
+    background-position: center;
+}
+.quickbooks-logo {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quickbooks-favicon@2x-c89488e8.svg) no-repeat;
+}
+.quickbooks-text {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/quick-books-text-db6c72bf.svg) no-repeat;
+    width: 105px;
+    height: 25px;
+    background-position: center;
+}
+.turbotax-logo {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/tt-favicon@2x-fbd64ab8.svg) no-repeat;
+}
+.turbotax-text {
+    background: url(https://plugin.intuitcdn.net/identity-authn-core-ui/images/turbo-tax-text-9bc025c5.svg) no-repeat;
+    width: 74px;
+    height: 25px;
+    background-position: center;
+}
+form {
+    display: block;
+    width: 350px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+}
+form header {
+    color: #4c4c4c;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    line-height: 1.2;
+}
+form h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+form p {
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: .5;
+}
+form label {
+display: block;
+font-weight: 400;
+color: #404040;
+font-size: 14px;
+line-height: 25px;
+}
+form input {
+    width: 320px;
+    padding: 7px;
+    margin: 5px 0 50px 0;
+    border: 1px solid lightgray;
+}
+.span-text {
+    font-size: 10px;
+    display: block;
+    min-height: 20px;
+    color: #444;
+    margin: -40px 0 40px 0;
+}
+.un-lock-img{
+    position: relative;
+}
+.un-lock-img img {
+    width: 25px;
+    top: 8px;
+    right: 25px;
+    position: absolute;
+}
+form button {
+    background: #0077c5;
+    border: #0077c5;
+    border-radius: 4px;
+    color: #fff;
+    width: 340px;
+    height: 44px;
+    font-size: 1.125em;
+}
+.terms {
+    margin: 0 auto;
+    padding-top: 35px;
+    width: 320px;
+    font-size: 12px;
+    font-style: italic;
+    color: #757575; 
+    line-height: 1.5;
+    text-align: center;
+}
+.form-footer {
+    width: 378px;
+    margin: 0 auto;
+    padding: 16px;
+    font-size: 10px;
+    color: #8d9096;
+    background-color: rgb(236, 238, 241);
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.form-footer a {
+    font-size: 10px;
+   
+}
+footer {
+    margin: 0 auto;
+    width: 777px;
+    font-size: 12px;
+    color: #505050;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+}
+.footer-links {
+    width: 412px;
+    display: table;
+    margin: 0 auto;
+}
+footer ul{
+    padding: 0;
+    padding-top: 10px;
+}
+footer li{
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+}
+footer a {
+    color: #505050;
+}
+footer a:hover {
+    text-decoration: underline;
+}
